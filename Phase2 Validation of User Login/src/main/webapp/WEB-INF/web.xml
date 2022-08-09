@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>DemoServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  
+<!-- get post difference -->
+
+ <servlet>
+  <servlet-name>GetPostDiff</servlet-name>
+  <servlet-class>GetPostDiff</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>GetPostDiff</servlet-name>
+  <url-pattern>/GetPostDiff</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- servlet configuration -->
+  
+   <servlet>
+  <servlet-name>ServletConfig</servlet-name>
+  <servlet-class>ServletConfig</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ServletConfig</servlet-name>
+  <url-pattern>/ServletConfig</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <!-- url-Redirect -->
+  
+   <servlet>
+  <servlet-name>UrlRedirect</servlet-name>
+  <servlet-class>UrlRedirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UrlRedirect</servlet-name>
+  <url-pattern>/UrlRedirect</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- cookie example -->
+  
+   <servlet>
+  <servlet-name>CookieExample</servlet-name>
+  <servlet-class>CookieExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CookieExample</servlet-name>
+  <url-pattern>/CookieExample</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
