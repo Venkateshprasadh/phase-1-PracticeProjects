@@ -1,0 +1,16 @@
+
+    <div class="mb-3" style="margin-left:500px ;margin-top:100px ;width:600px ;  background-color: #9cce9b8c;padding: 50px;">
+      <div  class="alert alert-warning" style="background-color:rgb(230, 137, 137) ;" *ngIf="invalidlogin">{{errormsg}}</div>
+<div>
+      <label for="exampleInputEmail1" class="form-label">User name</label>
+      <input type="text" class="form-control"  [(ngModel)]="username" aria-describedby="emailHelp">
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control"  [(ngModel)]="password" >
+        <div id="emailHelp" class="form-text"><button type="submit"(click)="changepassword()" class="btn btn-success ">Change Password</button></div><br>
+      <button type="button" class="btn btn-primary" (click)="handlelogin()" style="margin-left:400px ;">Login</button>
+      </div>
+    </div>
+    
+    
+    
