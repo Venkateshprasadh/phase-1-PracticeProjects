@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="36" total="42" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="244408" started-at="2022-10-18T15:58:54 IST" finished-at="2022-10-18T16:02:59 IST">
+    <groups>
+    </groups>
+    <test name="navigate" duration-ms="9" started-at="2022-10-18T15:58:54 IST" finished-at="2022-10-18T15:58:54 IST">
+    </test> <!-- navigate -->
+    <test name="searchproduct" duration-ms="36229" started-at="2022-10-18T15:58:54 IST" finished-at="2022-10-18T15:59:31 IST">
+      <class name="TestNG.AutomateECommerce.NewTest">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:TestNG.AutomateECommerce.NewTest@188715b5]" name="config" is-config="true" duration-ms="2605" started-at="2022-10-18T15:58:54 IST" finished-at="2022-10-18T15:58:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:2, instance:TestNG.AutomateECommerce.NewTest@188715b5]" name="searchproduct" duration-ms="32936" started-at="2022-10-18T15:58:57 IST" finished-at="2022-10-18T15:59:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:TestNG.AutomateECommerce.NewTest@188715b5]" name="quitbrowser" is-config="true" duration-ms="662" started-at="2022-10-18T15:59:30 IST" finished-at="2022-10-18T15:59:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- TestNG.AutomateECommerce.NewTest -->
+    </test> <!-- searchproduct -->
+    <test name="loadImage" duration-ms="31855" started-at="2022-10-18T15:59:31 IST" finished-at="2022-10-18T16:00:02 IST">
+      <class name="TestNG.AutomateECommerce.NewTest">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:TestNG.AutomateECommerce.NewTest@384ad17b]" name="config" is-config="true" duration-ms="1849" started-at="2022-10-18T15:59:31 IST" finished-at="2022-10-18T15:59:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="loadImage()[pri:3, instance:TestNG.AutomateECommerce.NewTest@384ad17b]" name="loadImage" duration-ms="29320" started-at="2022-10-18T15:59:32 IST" finished-at="2022-10-18T16:00:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadImage -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:TestNG.AutomateECommerce.NewTest@384ad17b]" name="quitbrowser" is-config="true" duration-ms="682" started-at="2022-10-18T16:00:02 IST" finished-at="2022-10-18T16:00:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- TestNG.AutomateECommerce.NewTest -->
+    </test> <!-- loadImage -->
+    <test name="bottom" duration-ms="33915" started-at="2022-10-18T16:00:02 IST" finished-at="2022-10-18T16:00:36 IST">
+      <class name="TestNG.AutomateECommerce.NewTest">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:TestNG.AutomateECommerce.NewTest@4d9e68d0]" name="config" is-config="true" duration-ms="1804" started-at="2022-10-18T16:00:02 IST" finished-at="2022-10-18T16:00:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="bottom()[pri:4, instance:TestNG.AutomateECommerce.NewTest@4d9e68d0]" name="bottom" duration-ms="31425" started-at="2022-10-18T16:00:04 IST" finished-at="2022-10-18T16:00:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottom -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:TestNG.AutomateECommerce.NewTest@4d9e68d0]" name="quitbrowser" is-config="true" duration-ms="685" started-at="2022-10-18T16:00:36 IST" finished-at="2022-10-18T16:00:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- TestNG.AutomateECommerce.NewTest -->
+    </test> <!-- bottom -->
+    <test name="screenResolution" duration-ms="57811" started-at="2022-10-18T16:00:36 IST" finished-at="2022-10-18T16:01:34 IST">
+      <class name="TestNG.AutomateECommerce.NewTest">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:TestNG.AutomateECommerce.NewTest@62150f9e]" name="config" is-config="true" duration-ms="1942" started-at="2022-10-18T16:00:36 IST" finished-at="2022-10-18T16:00:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="screenResolution()[pri:4, instance:TestNG.AutomateECommerce.NewTest@62150f9e]" name="screenResolution" duration-ms="55099" started-at="2022-10-18T16:00:38 IST" finished-at="2022-10-18T16:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenResolution -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:TestNG.AutomateECommerce.NewTest@62150f9e]" name="quitbrowser" is-config="true" duration-ms="768" started-at="2022-10-18T16:01:33 IST" finished-at="2022-10-18T16:01:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- TestNG.AutomateECommerce.NewTest -->
+    </test> <!-- screenResolution -->
+    <test name="ScrollbarpresentCheck" duration-ms="45699" started-at="2022-10-18T16:01:34 IST" finished-at="2022-10-18T16:02:20 IST">
+      <class name="TestNG.AutomateECommerce.NewTest">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:TestNG.AutomateECommerce.NewTest@6dc17b83]" name="config" is-config="true" duration-ms="1791" started-at="2022-10-18T16:01:34 IST" finished-at="2022-10-18T16:01:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="ScrollbarpresentCheck()[pri:5, instance:TestNG.AutomateECommerce.NewTest@6dc17b83]" name="ScrollbarpresentCheck" duration-ms="43259" started-at="2022-10-18T16:01:36 IST" finished-at="2022-10-18T16:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollbarpresentCheck -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:TestNG.AutomateECommerce.NewTest@6dc17b83]" name="quitbrowser" is-config="true" duration-ms="648" started-at="2022-10-18T16:02:19 IST" finished-at="2022-10-18T16:02:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- TestNG.AutomateECommerce.NewTest -->
+    </test> <!-- ScrollbarpresentCheck -->
+    <test name="scrollFrequency" duration-ms="38840" started-at="2022-10-18T16:02:20 IST" finished-at="2022-10-18T16:02:59 IST">
+      <class name="TestNG.AutomateECommerce.NewTest">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:TestNG.AutomateECommerce.NewTest@71809907]" name="config" is-config="true" duration-ms="1716" started-at="2022-10-18T16:02:20 IST" finished-at="2022-10-18T16:02:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="scrollFrequency()[pri:6, instance:TestNG.AutomateECommerce.NewTest@71809907]" name="scrollFrequency" duration-ms="36426" started-at="2022-10-18T16:02:22 IST" finished-at="2022-10-18T16:02:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollFrequency -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:TestNG.AutomateECommerce.NewTest@71809907]" name="quitbrowser" is-config="true" duration-ms="696" started-at="2022-10-18T16:02:58 IST" finished-at="2022-10-18T16:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- TestNG.AutomateECommerce.NewTest -->
+    </test> <!-- scrollFrequency -->
+  </suite> <!-- Suite -->
+</testng-results>

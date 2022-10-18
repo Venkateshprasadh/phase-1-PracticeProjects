@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+ <test thread-count="5" name="navigate">
+   <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url1" value="https://www.flipkart.com/"></parameter>
+    <classes>
+     
+      <class name="TestNG.AutomateECommerce.AppTest">
+      <methods>
+      <include name="navigate"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  
+  <test thread-count="5" name="searchproduct">
+   <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url2" value="https://www.flipkart.com/"></parameter>
+   <classes>
+      <class name="TestNG.AutomateECommerce.NewTest">
+      <methods>
+      <include name="searchproduct"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="loadImage">
+    <parameter name="browser" value="chrome"></parameter>
+  
+   <classes>
+      <class name="TestNG.AutomateECommerce.NewTest">
+      <methods>
+      <include name="loadImage"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  
+   <test thread-count="5" name="bottom">
+    <parameter name="browser" value="chrome"></parameter>
+  
+   <classes>
+      <class name="TestNG.AutomateECommerce.NewTest">
+      <methods>
+      <include name="bottom"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  
+   <test thread-count="5" name="screenResolution">
+    <parameter name="browser" value="chrome"></parameter>
+  
+   <classes>
+      <class name="TestNG.AutomateECommerce.NewTest">
+      <methods>
+      <include name="screenResolution"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  
+  <test thread-count="5" name="ScrollbarpresentCheck">
+    <parameter name="browser" value="chrome"></parameter>
+  
+   <classes>
+      <class name="TestNG.AutomateECommerce.NewTest">
+      <methods>
+      <include name="ScrollbarpresentCheck"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="scrollFrequency">
+    <parameter name="browser" value="chrome"></parameter>
+  
+   <classes>
+      <class name="TestNG.AutomateECommerce.NewTest">
+      <methods>
+      <include name="scrollFrequency"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
